@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway";
+}
+
+.header {
+
+  padding: 6.4rem 8rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 16.6rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 5.6rem;
+}
+
+.main-nav a {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.section-get-started {
+  padding: 0 8rem;
+}
+
+.get-started-main-container,
+.early-access-container,
+.stay-productive-container  {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  align-items: center;
+}
+
+.main-heading,
+.heading-secondary {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #07043b;
+  line-height: 6rem;
+}
+
+.main-text,
+.text-productive {
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #07043b;
+  margin-top: 1.6rem;
+}
+
+.main-get-started-form {
+  margin-top: 2.4rem;
+}
+
+.enter-mail {
+  width: 32rem;
+  height: 4.4rem;
+  padding-left: 2rem;
+  outline: none;
+  border: 0.625px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.4rem;
+}
+
+.enter-mail::placeholder {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+
+.get-started-btn {
+  width: 20rem;
+  height: 4.4rem;
+  margin-left: 1.6rem;
+  background-color: #2f65f8;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 0.4rem;
+  border: none;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}
+
+.get-started-btn:hover,
+.get-started-btn:active {
+  background-color: #6c9bff;
+  cursor: pointer;
+}
+
+.illustration-one {
+  width: 100%;
+  height: 100%;
+}
+
+.section-stay-productive {
+  max-width: 100%;
+  background-color: #f8f8fe;
+  padding: 8rem 8rem 10rem 8rem;
+}
+
+.curve {
+  width: 100%;
+  margin-bottom: -1rem;
+  margin-top: 16rem;
+}
+
+.how-works {
+  margin-top: 1.6rem;
+}
+
+.how-works a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #3da08f;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  padding-bottom: 0.4rem;
+}
+
+.how-works a:hover {
+  color: #71DFCC;
+}
+
+.fa-circle-arrow-right {
+  font-size: 1.2rem;
+}
+
+.testimonial {
+  margin-top: 4.4rem;
+  padding: 2.6rem 3.6rem;
+  max-width: 35.6rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
+  border-radius: 0.4rem;
+}
+
+.quote {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  margin-top: 1.2rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.6rem;
+}
+
+.profile-picture {
+  max-width: 3.2rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.055rem;
+  color: #07043b;
+}
+
+.job {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
+}
+
+.image-side img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.early-access-section {
+  max-width: 100%;
+  background-color: #575988;
+  padding: 10rem 8rem;
+}
+
+.early-access-container {
+  gap: 40rem;
+}
+
+.heading-access {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text-access {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #ffffff;
+  margin-top: 1.6rem;
+}
+
+.access-mail {
+  width: 100%;
+}
+
+.access-btn {
+  margin-left: 0;
+  margin-top: 1.6rem;
+}
+
+.footer {
+  max-width: 100%;
+  background-color: #07043B;
+  padding: 8.8rem 8rem;
+}
+
+.footer-logo {
+  max-width: 13.5rem;
+}
+
+.footer-content {
+  margin-top: 3.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10rem;
+}
+
+.phone,
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.phone-number,
+.mail-address {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.mail {
+  margin-top: 1.6rem;
+}
+
+.footnav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20rem;
+  row-gap: 1.6rem;
+ 
+}
+
+
+.footnav a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footnav a:hover {
+  color: #6C9BFF;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.4rem;
+  justify-content: flex-end;
+}
+
+.facebook,
+.twitter,
+.instagram {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-image: url(../IMG/facebook.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.twitter {
+  background-image: url(../IMG/twitter.svg);
+}
+
+.instagram {
+  background-image: url(../IMG/instagram.svg);
+}
+
+.facebook:hover {
+  background-image: url(../IMG/facebook-hover.svg);
+}
+
+.twitter:hover {
+  background-image: url(../IMG/twitter-hover.svg);
+}
+
+.instagram:hover {
+  background-image: url(../IMG/instagram-hover.svg);
+}
